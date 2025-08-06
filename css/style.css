@@ -285,8 +285,8 @@ p {
     border-radius: 0.9375rem;
 }
 .explore-food .card img {
-    border-radius: 0.9375rem;
-    object-fit: cover;
+      width: 100%;
+      height: auto;
 }
 .explore-food .card span {
     display: block;
@@ -416,3 +416,4 @@ p {
     color: var(--secondry-color) !important;
 
 }
+
