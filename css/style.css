@@ -177,6 +177,14 @@ p {
     border: unset;
     box-shadow: none;
 }
+.navbar-toggler {
+  border: none;
+  background: none;
+}
+
+.navbar-toggler-icon {
+  font-size: 1.5rem;
+}
 .nav-link {
     font-size: 0.9375rem;
     font-weight: 600;
@@ -369,6 +377,15 @@ p {
     box-shadow:none;
     border-color:var(--primary-color);
 }
+.newslettar .row {
+  flex-direction: column;
+}
+
+.newslettar .col-md-4,
+.newslettar .col-md-8 {
+  width: 100%;
+  padding: 0.5rem 0;
+}
 /*============footer section design=========*/
 .footer {
     background: var(--primary-color);
@@ -397,4 +414,5 @@ p {
 }
 .footer a i:hover {
     color: var(--secondry-color) !important;
+
 }
