@@ -1,3 +1,42 @@
+@media (max-width: 575.98px) {
+  .top-banner h1 {
+    font-size: 2rem;
+  }
+
+  .main-btn, .white-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .explore-food .card {
+    margin-bottom: 2rem;
+  }
+
+  .testimonial-section .carousel-item {
+    padding: 4rem 1rem;
+  }
+
+  .testimonial-section .carousel-item .carousel-caption p {
+    padding: 0 1rem;
+    font-size: 1rem;
+  }
+
+  .newslettar {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .book-food h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .about-section .text-sec {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
 @media(max-width :1024px) {
     /* about section  */
 }
@@ -89,4 +128,5 @@
         padding: 13rem 3.125rem;
     }
 }
+
 
