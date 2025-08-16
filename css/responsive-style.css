@@ -1,0 +1,170 @@
+@media (max-width: 575.98px) {
+  .top-banner h1 {
+    font-size: 2rem;
+  }
+/*<=======custome scrollbar======>*/
+::-webkit-scrollbar {
+    width:0.625rem;
+}
+::-webkit-scrollbar-track {
+    background:var(--white-color);
+}
+::-webkit-scrollbar-thumb {
+    background-color:var(--primary-color);
+}
+
+  .main-btn, .white-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .explore-food .card {
+    margin-bottom: 2rem;
+  }
+
+  .testimonial-section .carousel-item {
+    padding: 4rem 1rem;
+  }
+
+  .testimonial-section .carousel-item .carousel-caption p {
+    padding: 0 1rem;
+    font-size: 1rem;
+  }
+
+  .newslettar {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .book-food h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .about-section .text-sec {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media(max-width :1024px) {
+    /* about section  */
+}
+
+@media(max-width :991px) {
+    
+    /* custome classes */
+    .text-content {
+        width: 100%;
+    }
+
+
+    /* navbar brand  */
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125rem;
+    }
+    .navigation-wrap {
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link {
+        line-height: 1.875rem;
+
+    }
+
+
+    /* banner design */
+    .top-banner {
+        padding: 9.375rem 0 9.375rem;
+    }
+
+    /* curousle design */
+    .testimontial-section .carousel-item .carousel-caption p {
+        padding: 0;
+    }
+
+
+}
+
+@media(max-width :767px) /* use in mobile version */ {
+    
+    /* custome css  */
+    h1{
+    font-size: 2.8rem;
+    }
+    h2 {
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+
+
+    /* top banner */
+    .top-banner {
+        padding: 10.875rem 0 9.375rem;
+    }
+
+    /* story sectrion  */
+    .story-section {
+        height: auto;
+        padding: 3rem 0;
+
+    }
+
+    /* curousle design */
+    .testimontial-section .carousel-item {
+        padding: 11rem 3.125rem;
+
+    }
+
+    /* news leeter  */
+    .newslettar {
+        width: 75%;
+    }
+    .newslettar .main-btn {
+        width: 100%;
+        margin: 1rem;
+    }
+    /* footer link  */
+    .footer .footer-link,
+    .footer a i{
+        padding:0 0.7rem;
+    }
+
+}
+
+@media(max-width :330px) {
+    /* curousle design */
+    .testimontial-section .carousel-item {
+        padding: 13rem 3.125rem;
+    }
+}
+/* === Fix Founder Section on Mobile === */
+@media (max-width: 767px) {
+  .testimonial-section .carousel-item {
+    padding: 2rem 1rem !important; /* Reduce height spacing */
+  }
+
+  .testimonial-section .carousel-caption {
+    position: static; /* Prevent overlay issues */
+    transform: none;
+    padding: 0;
+  }
+
+  .testimonial-section .carousel-caption img {
+    max-width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+
+  .testimonial-section .carousel-caption p {
+    padding: 0 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .testimonial-section .carousel-caption h5 {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+}
